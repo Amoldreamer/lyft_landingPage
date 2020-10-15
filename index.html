@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="container">
+        <nav id="nav_wrapper">
+            <h2>lyft</h2>
+            <ul>
+                <li><a href="#">cities</a></li>
+                <li><a href="#">drive</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">partners</a></li>
+                <li><a href="#">help</a></li>
+            </ul>
+        </nav>
+        <h2 id="info">Make up to $36/hr<br>Driving Your Car</h2>
+    </section>
+    <section id="calc_wrapper">
+        <h2>See How Much You Can Make</h2>
+        <p>How many hours do you want to drive this week</p>
+        <div>
+            <input class="calc_input" id="hours" type="text" placeholder="Hours">
+            <input class="calc_input" id="city" type="text" placeholder="City">
+            <input class="calc_input" id="button" type="submit" value="calculate">
+        </div>
+    </section>
+    <div id="app_wrapper">
+        <h2>Apply Now</h2>
+        <p>Enter your info and then download the lyft app to create your driver profile</p>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email Address">
+        <input type="text" placeholder="City">
+        <input type="number" placeholder="Phone Number">
+        <input type="number" placeholder="Promo Code">
+        <label for="one">
+            <input type="radio" id="one" name="first_item" value="1" />
+            I agree to the lyft terms
+        </label>
+        <input class="driver_button" type="button" id="button" value="become a driver">
+        <h6 style="font-size: 9px;">Already applied? Check the status of your application <a>here</a></h6>
+    </div>
+</body>
+</html>
